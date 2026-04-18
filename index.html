@@ -108,7 +108,7 @@
 
           <p>I received my Ph.D. in Hong Kong University of Science and Technology, where I was advised by <a href="https://zcgan.github.io/" rel="noreferrer noopener" target="_blank">Zecheng Gan</a>, co-advised by <a href="https://www.math.hkust.edu.hk/~maxiang/" rel="noreferrer noopener" target="_blank">Yang Xiang</a> and <a href="https://www.jinguo-group.science/" rel="noreferrer noopener" target="_blank">Jinguo Liu</a>, with my thesis on <a href="pdfs/articles/thesis.pdf" rel="noreferrer noopener" target="_blank">Confined Quasi-2D Coulomb Systems: Theory, Algorithms, and Applications</a>.</p>
           <a href="pdfs/cv-xuanzhao.pdf" rel="noreferrer noopener" target="_blank"
-            >Download my CV (updated on 2026-01-06).</a>
+            >Download my CV (updated on 2026-03-31).</a>
         </p>
       </section>
       <!-- Research -->
@@ -119,7 +119,7 @@
           <article class="col-6 col-12-xsmall work-item">
             <h3>Boundary Integral Equations</h3>
             <p>
-              I am currently working on developing BIE solvers for problems with edge and corner singularities.
+              I am currently working on developing BIE solvers for Poisson problems with complex geometries, including dielectric jumps and singular sources. 
             </p>
           </article>
           <article class="col-6 col-12-xsmall work-item">
@@ -128,7 +128,7 @@
           <article class="col-6 col-12-xsmall work-item">
             <h3>Fast Summation Algorithms</h3>
             <p>
-              I develop fast summation algorithms for electrostatics in Molecular Dynamics simulations and Monte Carlo simulations, including stochastic and spectral methods. I do analysis on the accuracy and efficiency of the algorithms, and providing efficient implementations in Julia and C++.
+              I develop fast summation algorithms for electrostatics based on Ewald summation and the DMK framework, for MD and MC simulations. I do analysis on the accuracy and efficiency of the algorithms, and providing efficient implementations in Julia and C++.
             </p>
           </article>
           <article class="col-6 col-12-xsmall work-item">
@@ -145,28 +145,30 @@
           </article>
         </div>
       </section>
-      <!-- Papers -->
+      <!-- Publications -->
       <section id="papers">
-        <h2>Papers</h2>
+        <h2>Publications</h2>
         <div class="row">
           <div class="col-12 col-12-small">
-            <!-- TODO: Add your citations  -->
             <ol>
-              <li>(alphabetical order) <b>X. Gao</b>, S. Jiang, J. Liang, Z. Xu, and Q. Zhou, <i>A fast spectral sum-of-Gaussians method for electrostatic summation in quasi-2D systems</i>,  Numer. Math., 1-53 (2025)</li>
+              <li>Z. Gan, <b>X. Gao</b>, and Y. Li, <i>An O(N) quasi-Ewald splitting method for nanoconfined electrostatics</i>, accepted by <i>Multiscale Model. Simul.</i>, Arxiv:2601.03125 (2026)</li>
+              <li>J.-G. Liu, <b>X. Gao</b>, and R. Samuelson, <i>OMEinsumContractionOrders: A Julia package for tensor network contraction order optimization</i>, <i>Journal of Open Source Software</i> 11, 9886 (2026)</li>
+              <li><b>X. Gao</b>, S. Jiang, J. Liang, Z. Xu, and Q. Zhou, <i>A fast spectral sum-of-Gaussians method for electrostatic summation in quasi-2D systems</i>, <i>Numerische Mathematik</i> 158, 533 (2026)</li>
               <li><b>X. Gao</b>, Q. Zhou, Z. Gan, and J. Liang, <i>Accurate error estimates and optimal parameter selection in Ewald summation for dielectrically confined Coulomb systems</i>, J. Chem. Theory Comput. 21, 5890 (2025)</li>
-              <li>(alphabetical order) Z. Gan, <b>X. Gao</b>, J. Liang, and Z. Xu, <i>Random batch Ewald method for dielectrically confined Coulomb systems</i>, SIAM J. Sci. Comput. 47, B846 (2025)</li>
+              <li>Z. Gan, <b>X. Gao</b>, J. Liang, and Z. Xu, <i>Random batch Ewald method for dielectrically confined Coulomb systems</i>, SIAM J. Sci. Comput. 47, B846 (2025)</li>
               <li><b>X. Gao</b>, X. Li, and J. Liu, <i>Programming guide for solving constraint satisfaction problems with tensor networks</i>, Chinese Physics B 34, 50201 (2025)</li>
-              <li>(alphabetical order) Z. Gan, <b>X. Gao</b>, J. Liang, and Z. Xu, <i>Fast algorithm for quasi-2D Coulomb systems</i>, J. Comput. Phys. 524, 113733 (2025)</li>
+              <li>Z. Gan, <b>X. Gao</b>, J. Liang, and Z. Xu, <i>Fast algorithm for quasi-2D Coulomb systems</i>, J. Comput. Phys. 524, 113733 (2025)</li>
               <li>M. Roa-Villescas, <b>X. Gao</b>, S. Stuijk, H. Corporaal, and J.-G. Liu, <i>Probabilistic inference in the era of tensor networks and differential programming</i>, Phys. Rev. Res. 6, 33261 (2024)</li>
               <li><b>X. Gao</b> and Z. Gan, <i>Broken symmetries in quasi-2D charged systems via negative dielectric confinement</i>, J. Chem. Phys. 161, (2024)</li>
-              <li>(co-first author) Z. Nie, <b>X. Gao</b>, Y. Ren, S. Xia, Y. Wang, Y. Shi, J. Zhao, and Y. Wang, <i>Harnessing hot phonon bottleneck in metal halide perovskite nanocrystals via interfacial electron-phonon coupling</i>, Nano Lett. 20, 4610 (2020)</li>
+              <li>Z. Nie, <b>X. Gao</b>, Y. Ren, S. Xia, Y. Wang, Y. Shi, J. Zhao, and Y. Wang, <i>Harnessing hot phonon bottleneck in metal halide perovskite nanocrystals via interfacial electron-phonon coupling</i>, Nano Lett. 20, 4610 (2020)</li>
             </ol>
             <h3>Preprints</h3>
-            <ol start="9">
+            <ol start="11">
+              <li>Y. Wang, <b>X. Gao</b>, P. Zhang, F. Pan, and J. Liu, <i>Branch-and-bound tensor networks for exact ground-state characterization</i>, Arxiv Preprint Arxiv:2602.05470 (2026)</li>
+              <li><b>X. Gao</b>, S. Jiang, J. Liang, and Q. Zhou, <i>An O(log N) Monte Carlo method for periodic Coulomb systems</i>, Arxiv Preprint Arxiv:2601.09288 (2026)</li>
               <li><b>X. Gao</b>, Y.-J. Wang, P. Zhang, and J.-G. Liu, <i>Automated discovery of branching rules with optimal complexity for the maximum independent set problem</i>, Arxiv Preprint Arxiv:2412.07685 (2024)</li>
             </ol>
             <ul class="actions">
-              <!-- TODO: Add link to database of all papers -->
               <li>
                 <a
                   href="https://scholar.google.com/citations?user=ScbYSkgAAAAJ&hl=en"
@@ -187,6 +189,9 @@
           <div class="col-12 col-12-small">
           <!-- TODO: Add talks  -->
           <ol>
+            <li>
+              <a href="pdfs/pre/apsmm26_xuanzhao.pdf">Branch-and-Bound Tensor Networks for Combinatorial Optimization</a>, APS Global Physics Summit 2026, Contributed Talk, March 15-20, 2026
+            </li>
             <li>
               <a href="pdfs/pre/fssog.pdf">A Fast Spectral Sum-of-Gaussians Method for Electrostatic Summation in Quasi-2D Systems</a>, The 14th CSCM Annual Conference, Invited Talk, August 17-21, 2025
             </li>
